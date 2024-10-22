@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>AGE CALCULATOR</h1>
+        <div class="input">
+            <label>Enter your Date of Birth</label><br>
+            <input type="date" value="11-01-2003" id="birthDate" />
+        </div>
+        <br>
+        <!-- Take the date from which age is to be calculated -->
+        <div class="input">
+            <label>Current Date</label><br>
+            <input type="date" value="" id="currentDate" />
+        </div>
+        <br>
+        <button onclick="getDate()" class="btn">
+            Calculate
+        </button>
+        <br>
+        <div id="currentAge" class="currentAge"></div>
+
+    </div>
+    
+    <footer>Code by Tanzeela Naz</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

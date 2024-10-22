@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('image/calculator-bg2.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #292929;
+    opacity: 0.9;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 8px 0px #b7b7b7;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 15px;
+    color: #ff8800;
+}
+
+input {
+    font-size: 15px;
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.input {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+
+}
+
+.btn {
+    background-color: #292929;
+    color: white;
+    text-align: center;
+    padding: 8px 20px;
+    font-size: 15px;
+    box-shadow: 0px 2px 5px 0px #b7b7b7;
+    border-radius: 5px;
+    border: 0.25px solid #b7b7b7;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #292929;
+}
+
+.currentAge {
+    color: #ff8800;
+    font-size: 22px;
+    margin-top: 10%;
+}
+
+footer {
+    width: 100vw;
+    padding: 30px 0;
+    position: fixed;
+    background-color: #ff8800;
+    opacity: 0.5;
+    color: white;
+    bottom: 0;
+    text-align: center;
+}
